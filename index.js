@@ -16,7 +16,7 @@ const app = express()
 
 // use cors in server app
 app.use(cors({
-    
+    origin:'http://localhost:4200'
 }))
 
 
